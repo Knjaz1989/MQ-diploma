@@ -1,0 +1,15 @@
+.header {
+  padding-top: 225px;
+  padding-bottom: 213px;
+  background-image: url("../images/banner-bg-tablet.jpg");
+}
+
+.header__logo {
+  width: 158px;
+}
+
+.header__title {
+  margin: 37px 78px 0;
+  font-size: 40px;
+  line-height: 54.98px;
+}
