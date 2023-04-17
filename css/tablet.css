@@ -13,3 +13,17 @@
   font-size: 40px;
   line-height: 54.98px;
 }
+
+/* ---------- main----------- */
+
+.trends {
+  padding-top: 35px;
+}
+
+.section__name {
+  font-size: 18px;
+}
+
+.section__name::after {
+  margin: 10px auto 18px;
+}
