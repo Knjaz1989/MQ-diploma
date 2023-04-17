@@ -1,12 +1,17 @@
+body {
+  min-width: 360px;
+}
+
+
 .header {
   position: relative;
   z-index: 1;
   height: 639px;
   text-align: center;
   color: #ffffff;
-  /* padding-left: 37px;
-  padding-right: 37px; */
-  font-size: 13px;
+  padding-left: 40px;
+  padding-right: 40px;
+
   /* padding-top: 28px; */
   /* padding-bottom: 129px; */
   /* margin-bottom: 64px; */
@@ -41,6 +46,12 @@
   padding-right: 45px; */
   width: 269px;
   /* height: 40px; */
+}
+
+.header__title {
+  margin: 37px 0 0;
+  font-size: 26px;
+  line-height: 36px;
 }
 
 .header__menu__nav {
