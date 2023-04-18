@@ -11,21 +11,73 @@
 }
 
 .header__title {
-  margin: 37px 40px 0;
+  margin: 29px 40px 0;
   font-size: 26px;
   line-height: 36px;
 }
 
 /* ---------- main----------- */
 
-.trends {
-  padding-top: 27px;
+.main__posts {
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
+.main__post__image {
+  width: 100%;
+}
+
+.trends {
+  padding-top: 33px;
+}
+
+.trend__item {
+  box-sizing: border-box;
+  height: 233px;
+  padding: 15px;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #c6c5c2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.trend__item:nth-child(n + 2) {
+  margin-top: 1px;
+}
+
+.tr_image_1 {
+  background-image: url("../images/trend1.jpg");
+}
+
+.tr_image_2 {
+  background-image: url("../images/trend2.jpg");
+}
+
+.tr_image_3 {
+  background-image: url("../images/trend3.jpg");
+}
+
+.tr_image_4 {
+  background-image: url("../images/trend4.jpg");
+}
+
+.trend__item__description {
+  border: 3px solid #b59f5b;
+  padding: 28px 20px;
+}
+
+/* .trend__image {
+  width: 100%;
+} */
 
 .section__name {
   font-size: 16px;
 }
 
 .section__name::after {
-  margin: 8px auto 24px;
+  margin: 4px auto 24px;
 }
