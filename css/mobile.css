@@ -32,6 +32,8 @@
 }
 
 .trend__item {
+  position: relative;
+  z-index: 1;
   box-sizing: border-box;
   height: 233px;
   padding: 15px;
@@ -43,6 +45,17 @@
   background-position: bottom center;
   display: flex;
   align-items: flex-end;
+}
+
+.trend__item::after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .trend__item:nth-child(n + 2) {
@@ -66,13 +79,10 @@
 }
 
 .trend__item__description {
+  z-index: 3;
   border: 3px solid #b59f5b;
   padding: 28px 20px;
 }
-
-/* .trend__image {
-  width: 100%;
-} */
 
 .section__name {
   font-size: 16px;
