@@ -101,5 +101,20 @@
   display: flex;
   align-items: flex-start;
   gap: 19px;
-  word-break: break-all;
+}
+
+.search-form {
+  margin-top: 45px;
+}
+
+.search-label {
+  flex-grow: 1;
+}
+
+.mailing {
+  padding-top: 36px;
+}
+
+.tags-section {
+  padding-top: 36px;
 }

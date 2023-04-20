@@ -26,14 +26,14 @@
 /* ---------- main----------- */
 
 .main__posts__wrapper {
-  padding: 50px 35px 0;
+  padding: 43px 35px 0;
   color: #0f0d0e;
   display: flex;
   justify-content: space-between;
 }
 
 .main__posts {
-  padding: 0;
+  padding-top: 7px;
   gap: 42px;
 }
 
@@ -92,10 +92,22 @@
   line-height: 22px;
 }
 
+.main__sections {
+  padding-top: 0;
+}
+
 .section__name {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .section__name::after {
   margin: 6px auto 19px;
+}
+
+.search-form {
+  margin: 45px 0 53px;
+}
+
+.search-label {
+  flex-grow: 2;
 }
