@@ -1,6 +1,6 @@
 .header {
-  padding-top: 225px;
-  padding-bottom: 213px;
+  padding-top: 43px;
+  padding-bottom: 113px;
   background-image: url("../images/banner-bg-tablet.jpg");
 }
 
@@ -8,8 +8,18 @@
   width: 158px;
 }
 
+.header__menu {
+  box-sizing: border-box;
+  margin: 0 auto;
+	width: 698px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header__title {
-  margin: 37px 78px 0;
+  margin: 85px 78px 0;
   font-size: 40px;
   line-height: 54.98px;
 }
@@ -17,7 +27,7 @@
 /* ---------- main----------- */
 
 .trends {
-  padding-top: 35px;
+  padding: 42px 0 38px;
 }
 
 .section__name {
@@ -25,5 +35,5 @@
 }
 
 .section__name::after {
-  margin: 10px auto 18px;
+  margin: 6px auto 18px;
 }
