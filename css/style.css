@@ -77,22 +77,6 @@ p {
 
 /* ---------- main----------- */
 
-.section__name {
-  line-height: 29px;
-  font-weight: bold;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.section__name::after {
-  content: '';
-  display: block;
-  width: 66px;
-  height: 3px;
-  opacity: 0.4;
-  background: #b59f5b;
-}
-
 .article-title {
   margin: 0;
 }
@@ -200,15 +184,40 @@ p {
   text-transform: none;
 }
 
-/* .main__post {
-  padding-bottom: 58px;
-} */
-
 .main__post__text {
   text-transform: none;
   padding-top: 14px;
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.section__name {
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section__name::after {
+  content: '';
+  display: block;
+  width: 66px;
+  height: 3px;
+  opacity: 0.4;
+  background: #b59f5b;
+}
+
+.new__post__date {
+  display: block;
+  font-size: 12px;
+  line-height: 10px;
+  text-transform: none;
+  color: #888888;
+}
+
+.new__post__item__title {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 6px 0 0;
 }
 

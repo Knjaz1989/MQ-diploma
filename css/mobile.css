@@ -18,15 +18,6 @@
 
 /* ---------- main----------- */
 
-.main__posts {
-  padding: 43px 15px 0;
-  gap: 58px;
-}
-
-.main__post__image {
-  width: 100%;
-}
-
 .trends {
   padding-top: 33px;
   font-size: 16px;
@@ -53,12 +44,27 @@
   line-height: 20px;
 }
 
-.section__name::after {
-  margin: 4px auto 24px;
-}
-
 .post__item__description {
   margin-top: 5px;
+}
+
+.main__posts__wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main__posts {
+  padding-top: 43px;
+  gap: 35px;
+}
+
+.main__post__image {
+  width: 100%;
+}
+
+.main__post {
+  border-bottom: 3px solid #ededed;
+  padding-bottom: 20px;
 }
 
 .main__post__title {
@@ -74,4 +80,26 @@
 .main__post__text {
   font-size: 14px;
   line-height: 20px;
+}
+
+.main__sections {
+  padding-top: 34px;
+}
+
+.section__name {
+  font-size: 16px;
+  line-height: 29px;
+}
+
+.section__name::after {
+  margin: 4px auto 24px;
+}
+
+.new__post__item {
+  padding-top: 6px;
+  padding-bottom: 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 19px;
+  word-break: break-all;
 }
