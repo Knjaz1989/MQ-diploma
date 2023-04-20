@@ -173,10 +173,16 @@ p {
 
 .main__post__title {
   margin: 6px 0 0;
+  font-weight: bold;
 }
 
 .main__post__info {
   display: flex;
+  font-size: 12px;
+}
+
+.main__post__text {
+  text-transform: none;
 }
 
 .date {
@@ -187,6 +193,7 @@ p {
 .author {
   font-weight: bold;
   margin-left: 14px;
+  text-transform: none;
 }
 
 /* .main__post {

@@ -86,6 +86,32 @@ a {
   margin-right: 29px;
 }
 
+.post__item__description {
+  margin-top: 0px;
+}
+
+.post__item__tags {
+  /* font-size: 14px; */
+  line-height: 14px;
+  /* margin-bottom: 8px; */
+}
+
+.main__post__title {
+  font-size: 20px;
+  line-height: 22px;
+  margin: 10px 0 0;
+}
+
+.main__post__info {
+  margin-top: 31px;
+}
+
+.main__post__text {
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 31px;
+}
+
 .trends {
   padding-top: 54px;
 }
