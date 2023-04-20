@@ -10,8 +10,7 @@
 
 .header__menu {
   box-sizing: border-box;
-  margin: 0 auto;
-	width: 698px;
+  margin: 0 35px;
 
   display: flex;
   justify-content: space-between;
@@ -30,10 +29,32 @@
   padding: 42px 0 38px;
 }
 
+.trends-items {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.trend__item {
+  width: calc((100% - 4px) / 2);
+  padding: 16px 20px;
+  border: none;
+  height: 247px;
+}
+
+.trend__item__description {
+  padding: 29px;
+}
+
+.article-title {
+  font-size: 17px;
+  line-height: 22px;
+}
+
 .section__name {
   font-size: 18px;
 }
 
 .section__name::after {
-  margin: 6px auto 18px;
+  margin: 6px auto 19px;
 }

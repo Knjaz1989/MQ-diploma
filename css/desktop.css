@@ -39,11 +39,7 @@ a {
 
 .header__menu {
 	box-sizing: border-box;
-	margin: 0 auto;
-	width: 1170px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	margin: 0 248px;
 }
 
 .header__menu__nav__item:nth-child(n+2) {
@@ -66,7 +62,7 @@ a {
 }
 
 .trends-items {
-  flex-direction: row;
+  flex-wrap: nowrap;
   gap: 4px;
 }
 
