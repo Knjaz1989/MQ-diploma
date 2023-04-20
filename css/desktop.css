@@ -59,7 +59,7 @@ a {
 
 .main__posts__wrapper {
   margin: 0 auto;
-  padding-top: 27px;
+  padding-top: 57px;
   width: 1170px;
   color: #0f0d0e;
   flex: 1;
@@ -133,14 +133,26 @@ a {
   line-height: 24px;
 }
 
-.section__name {
+.trends .section__name {
   font-size: 20px;
 }
 
-.section__name::after {
+.trends .section__name::after {
   margin: 8px auto 28px;
+}
+
+.section__name {
+  font-size: 14px;
+}
+
+.section__name::after {
+  margin: 3px auto 23px;
 }
 
 .main__sections {
   width: 272px;
+}
+
+.themes-section {
+  padding-top: 54px;
 }
