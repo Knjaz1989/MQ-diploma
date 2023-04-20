@@ -128,6 +128,7 @@ a {
 
 .main__posts {
   width: 778px;
+  margin: 0;
 }
 
 .main__post {
@@ -156,13 +157,13 @@ a {
   margin-left: 17px;
 }
 
-.post__tag__link {
+/* .post__tag__link {
   color: #b59f5b;
 }
 
 .post__tag__link:hover {
   text-decoration: underline;
-}
+} */
 
 .main__post__title {
   font-size: 20px;
