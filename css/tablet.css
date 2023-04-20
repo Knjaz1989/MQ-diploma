@@ -105,9 +105,21 @@
 }
 
 .search-form {
-  margin: 45px 0 53px;
+  margin-top: 45px;
 }
 
-.search-label {
-  flex-grow: 2;
+.mailing {
+  padding-top: 53px;
+}
+
+.tags-section {
+  padding-top: 50px;
+}
+
+.themes-section {
+  padding-top: 51px;
+}
+
+.themes-section .section__name::after {
+  margin-bottom: 6px;
 }

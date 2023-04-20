@@ -118,3 +118,11 @@
 .tags-section {
   padding-top: 36px;
 }
+
+.themes-section {
+  padding-top: 35px;
+}
+
+.themes-section .section__name::after {
+  margin-bottom: 10px;
+}
