@@ -67,9 +67,8 @@ a {
 }
 
 .trend__item {
-  width: 25%;
+  width: calc((100% - 12px) / 4)
   padding: 16px 20px;
-  border: none;
   height: 319px;
 }
 

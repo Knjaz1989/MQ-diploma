@@ -36,7 +36,7 @@
 }
 
 .trend__item {
-  width: calc((100% - 4px) / 2);
+  width: calc((100% - 3px) / 2);
   padding: 16px 20px;
   border: none;
   height: 247px;
