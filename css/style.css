@@ -92,13 +92,59 @@ a {
 }
 
 .article-title {
-  font-size: 16px;
-  line-height: 20px;
   margin: 0;
+}
+
+.trends-items {
+  display: flex;
+  gap: 1px;
 }
 
 .trend__item__link {
   color: #ffffff;
+}
+
+.trend__item {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.trend__item::after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.trend__item__description {
+  z-index: 3;
+  border: 3px solid #b59f5b;
+}
+
+.tr_image_1 {
+  background-image: url("../images/trend1.jpg");
+}
+
+.tr_image_2 {
+  background-image: url("../images/trend2.jpg");
+}
+
+.tr_image_3 {
+  background-image: url("../images/trend3.jpg");
+}
+
+.tr_image_4 {
+  background-image: url("../images/trend4.jpg");
 }
 
 .tags_list {

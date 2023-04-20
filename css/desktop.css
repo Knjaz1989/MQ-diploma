@@ -17,7 +17,7 @@ a {
 
 .header {
 	padding-top: 28px;
-	padding-bottom: 129px;
+	padding-bottom: 127px;
 	background-image: url("../images/banner-bg.jpg");
 } 
   
@@ -27,7 +27,7 @@ a {
 }
   
 .header__title {
-	margin: 103px auto 0;
+	margin: 98px auto 0;
 	font-size: 45px;
 	line-height: 75px;
 	width: 687px;
@@ -62,7 +62,28 @@ a {
 /* ---------- main----------- */
 
 .trends {
-  padding-top: 50px;
+  padding-top: 54px;
+}
+
+.trends-items {
+  flex-direction: row;
+  gap: 4px;
+}
+
+.trend__item {
+  width: 25%;
+  padding: 16px 20px;
+  border: none;
+  height: 319px;
+}
+
+.trend__item__description {
+  padding: 32px;
+}
+
+.article-title {
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .section__name {
