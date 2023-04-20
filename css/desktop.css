@@ -69,9 +69,6 @@ a {
 
 .main__posts {
   width: 778px;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
   gap: 60px;
 }
 
@@ -91,9 +88,7 @@ a {
 }
 
 .post__item__tags {
-  /* font-size: 14px; */
   line-height: 14px;
-  /* margin-bottom: 8px; */
 }
 
 .main__post__title {
@@ -107,8 +102,6 @@ a {
 }
 
 .main__post__text {
-  font-size: 15px;
-  line-height: 22px;
   margin-top: 31px;
 }
 

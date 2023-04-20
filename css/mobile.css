@@ -20,6 +20,7 @@
 
 .main__posts {
   padding: 43px 15px 0;
+  gap: 58px;
 }
 
 .main__post__image {
@@ -63,6 +64,7 @@
 .main__post__title {
   font-size: 16px;
   line-height: 20px;
+  margin: 6px 0 0;
 }
 
 .main__post__info {

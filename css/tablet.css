@@ -25,8 +25,50 @@
 
 /* ---------- main----------- */
 
+.main__posts__wrapper {
+  padding: 50px 35px 0;
+  color: #0f0d0e;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__posts {
+  padding: 0;
+  gap: 42px;
+}
+
+.main__post {
+  width: 391px;
+  border-bottom: 3px solid #ededed;
+  padding-bottom: 19px;
+}
+
+.post__item__tags {
+  margin-top: 7px;
+}
+
+.main__post__title {
+  font-size: 17px;
+  line-height: 22px;
+  margin: 7px 0 0;
+}
+
+.main__post__info {
+  margin-top: 31px;
+}
+
+.main__post__text {
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 13px;
+}
+
+.main__sections {
+  width: 270px;
+}
+
 .trends {
-  padding: 42px 0 38px;
+  padding-top: 42px;
 }
 
 .trends-items {

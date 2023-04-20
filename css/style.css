@@ -171,8 +171,12 @@ p {
   text-decoration: underline;
 }
 
+.main__posts {
+  display: flex;
+  flex-direction: column;
+}
+
 .main__post__title {
-  margin: 6px 0 0;
   font-weight: bold;
 }
 
