@@ -32,13 +32,21 @@
   justify-content: space-between;
 }
 
+.main {
+  padding: 43px 35px 0;
+}
+
+.main__inner {
+  display: flex;
+  gap: 35px;
+}
+
 .main__posts {
   padding-top: 7px;
   gap: 42px;
 }
 
 .main__post {
-  width: 391px;
   padding-bottom: 19px;
 }
 
@@ -122,4 +130,102 @@
 
 .themes-section .section__name::after {
   margin-bottom: 6px;
+}
+
+/* -------- products -------- */
+
+.products {
+  padding-top: 29px;
+}
+
+.product__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+}
+
+.product {
+  width: calc((100% - 23px) / 2);
+}
+
+.products .section__name::after {
+  margin: 7px auto 29px;
+}
+
+.product__image {
+  height: 227px;
+  margin: 0 22px;
+}
+
+.product__title {
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.product__text {
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: none;
+  margin-top: 3px;
+}
+
+.product__text__link {
+  font-weight: normal;
+}
+
+.product__buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 22px;
+}
+
+.product__buy__prices {
+  font-weight: bold;
+}
+
+.product__buy__price__item:after {
+	content: ' \20BD';
+}
+
+.product__buy__old__price {
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.product__buy__current__price {
+  font-size: 20px;
+  line-height: 14px;
+  padding-bottom: 10px;
+}
+
+.product__buy__shop {
+  font-size: 14px;
+  line-height: 40px;
+  padding: 4px;
+  width: 140px;
+  box-sizing: border-box;
+  background-color: #b59f5b; 
+  color: #fff;
+  text-align: center;
+}
+
+.product__text__link {
+  color: #b59f5b;
+}
+
+.product__text__link:hover {
+  text-decoration: underline;
+}
+
+.pr__image1 {
+  background-image: url("../images/shop-item-tablet1.jpg");
+}
+
+.pr__image2 {
+  background-image: url("../images/shop-item-tablet2.jpg");
+}
+
+.pr__image3 {
+  background-image: url("../images/shop-item-tablet3.jpg");
 }

@@ -57,6 +57,15 @@ a {
 
 /* ---------- main----------- */
 
+.main {
+  padding: 58px 245px 0;
+}
+
+.main__inner {
+  gap: 0;
+  justify-content: space-between;
+}
+
 .main__posts__wrapper {
   margin: 0 auto;
   padding-top: 57px;
@@ -156,3 +165,56 @@ a {
 .themes-section {
   padding-top: 54px;
 }
+
+/* -------- products -------- */
+
+.products {
+  padding-top: 58px;
+}
+
+.products .section__name {
+  font-size: 20px;
+}
+
+.products .section__name::after {
+  margin: 7px auto 29px;
+}
+
+.product__wrapper {
+  justify-content: space-between;
+}
+
+.product {
+  width: 347px;
+}
+
+.product__image {
+  height: 204px;
+  margin: 0 23px;
+}
+
+.product__title {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.product__info {
+  padding-bottom: 26px;
+}
+
+.pr__image1 {
+  background-image: url("../images/shop-item-desk1.jpg");
+}
+
+.pr__image2 {
+  background-image: url("../images/shop-item-desk2.jpg");
+}
+
+.pr__image3 {
+  background-image: url("../images/shop-item-desk3.jpg");
+}
+
+.footer {
+  padding-top: 22px;
+}
+
