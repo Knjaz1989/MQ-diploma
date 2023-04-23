@@ -144,6 +144,7 @@ p {
 .tags_list {
   font-size: 14px;
   gap: 18px;
+  flex-wrap: wrap;
 }
 
 .post__item__tags {

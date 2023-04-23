@@ -48,8 +48,7 @@
 }
 
 .main {
-  padding-top: 43px;
-  width: 330px;
+  padding: 43px 15px 0;
 }
 
 .main__posts {
