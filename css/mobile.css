@@ -47,13 +47,12 @@
   margin-top: 5px;
 }
 
-.main__posts__wrapper {
-  padding-left: 15px;
-  padding-right: 15px;
+.main {
+  padding-top: 43px;
+  width: 330px;
 }
 
 .main__posts {
-  padding-top: 43px;
   gap: 35px;
 }
 
@@ -129,7 +128,7 @@
 /* -------- products -------- */
 
 .products {
-  padding: 29px 15px 0;
+  padding-top: 29px;
 }
 
 .products .section__name::after {
@@ -226,3 +225,10 @@
 .pr__image3 {
   background-image: url("../images/shop-item-mobile3.jpg");
 }
+
+/* -------------------- footer ----------------- */
+
+.socials {
+  margin: 20px 15px 41px;
+}
+
