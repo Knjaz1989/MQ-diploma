@@ -13,6 +13,40 @@
 </head>
 
 <body>
+  <div class="popup">
+    <div class="popup__window">
+      <h3 class="section__name">
+        ваш фидбек
+      </h3>
+      <form action="" method="post" class="popup__form">
+        <label class="form__label">
+          <span class="form__question">
+            Как часто вы заходите на сайт?
+          </span>
+          <input type="text" class="form__input">
+        </label>
+        <div class="form__radio__wrapper">
+          <span class="form__question">
+            Вы подписаны на e-mail рассылку?
+          </span>
+          <div class="form__radio">
+            <input class="radio__input" type="radio" name="radio" id="radioYes">
+            <label class="radio__button" for="radioYes">Дa</label>
+            <input class="radio__input" type="radio" name="radio" id="radioNo" checked>
+            <label class="radio__button" for="radioNo">Нет</label>
+          </div>
+        </div>
+        <label class="form__label">
+          <span class="form__question">
+            Расскажите, какой контент вы хотели бы
+            видеть на нашем сайте?
+          </span>
+          <input type="text" class="form__input input__min__height">
+        </label>
+        <button type="submit" class="form__button">отправить</button>
+      </form>
+    </div>
+  </div>
   <header class="header">
     <div class="header-data">
       <div class="header__menu">
@@ -406,7 +440,7 @@
     </div>
     <aside class="products">
       <h3 class="section__name">наши изделия</h6>
-      <div class="product__wrapper">
+      <div class="products__inner">
         <div class="product">
           <div class="product__image pr__image1"></div>
           <div class="product__info">

@@ -180,8 +180,14 @@ a {
   margin: 7px auto 29px;
 }
 
-.product__wrapper {
-  justify-content: space-between;
+.products__inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 64px;
+}
+
+.product__image__wrapper {
+  padding: 0 23px;
 }
 
 .product {
@@ -190,7 +196,6 @@ a {
 
 .product__image {
   height: 204px;
-  margin: 0 23px;
 }
 
 .product__title {
