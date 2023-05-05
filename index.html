@@ -15,7 +15,7 @@
 <body>
   <div class="popup">
     <div class="popup__window">
-      <h3 class="section__name">
+      <h3 class="section__name popup__title">
         ваш фидбек
       </h3>
       <form action="" method="post" class="popup__form">
@@ -23,7 +23,20 @@
           <span class="form__question">
             Как часто вы заходите на сайт?
           </span>
-          <input type="text" class="form__input">
+          <select type="text" class="form__select">
+            <option value="" class="form__select__option">
+              Каждый день
+            </option>
+            <option value="" class="form__select__option" selected>
+              Почти каждый день
+            </option>
+            <option value="" class="form__select__option">
+              Один раз в неделю
+            </option>
+            <option value="" class="form__select__option">
+              Один раз в месяц
+            </option>
+          </select>
         </label>
         <div class="form__radio__wrapper">
           <span class="form__question">
@@ -41,7 +54,7 @@
             Расскажите, какой контент вы хотели бы
             видеть на нашем сайте?
           </span>
-          <textarea type="text" class="form__input input__min__height"></textarea>
+          <textarea type="text" class="form__input textarea" placeholder="Может, больше рецептов?"></textarea>
         </label>
         <button type="submit" class="form__button">отправить</button>
       </form>
