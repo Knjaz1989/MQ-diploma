@@ -64,7 +64,6 @@
 
 .main__inner {
   display: flex;
-  gap: 35px;
 }
 
 .main__posts {
@@ -87,7 +86,8 @@
 }
 
 .main__post__info {
-  margin-top: 31px;
+  margin-top: 29px;
+  margin-left: -3px;
 }
 
 .main__post__text {
@@ -98,6 +98,12 @@
 
 .main__sections {
   width: 270px;
+  flex-shrink: 0;
+  margin-left: 35px;
+}
+
+.main__sections .section__name {
+  font-size: 14px;
 }
 
 .trends {
@@ -131,7 +137,7 @@
 }
 
 .section__name {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .section__name::after {
@@ -161,17 +167,17 @@
 /* -------- products -------- */
 
 .products {
-  padding-top: 29px;
+  padding-top: 40px;
 }
 
-.product__wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 23px;
+.products__inner {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 23px;
 }
 
 .product {
-  width: calc((100% - 23px) / 2);
+  display: flex;
+  flex-direction: column;
 }
 
 .products .section__name::after {
@@ -179,8 +185,14 @@
 }
 
 .product__image {
-  height: 227px;
+  height: 225px;
   margin: 0 22px;
+}
+
+.product__info {
+  flex-grow: 1;
+  top: -33px;
+  padding: 49px 17px 25px;
 }
 
 .product__title {
@@ -234,6 +246,7 @@
   background-color: #b59f5b; 
   color: #fff;
   text-align: center;
+  margin-right: 4px;
 }
 
 .product__text__link {
@@ -254,4 +267,8 @@
 
 .pr__image3 {
   background-image: url("../images/shop-item-tablet3.jpg");
+}
+
+.socials {
+  padding: 29px 0 31px;
 }

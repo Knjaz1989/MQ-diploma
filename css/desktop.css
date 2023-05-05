@@ -59,7 +59,7 @@ a {
   
 .header__logo {
 	margin-top: 0px;
-	width: 185px;
+	width: 180px;
 }
   
 .header__title {
@@ -75,7 +75,8 @@ a {
 
 .header__menu {
 	box-sizing: border-box;
-	margin: 0 248px;
+  width: 1168px;
+	margin: 0 auto;
 }
 
 .header__menu__nav__item:nth-child(n+2) {
@@ -84,7 +85,7 @@ a {
 
 .menu-link-item {
 	color: inherit;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .menu-link-item:hover {
@@ -256,6 +257,10 @@ a {
 }
 
 .footer {
-  padding-top: 22px;
+  padding-top: 15px;
+}
+
+.socials {
+  padding: 31px 0 31px;
 }
 
