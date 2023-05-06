@@ -216,7 +216,7 @@ p {
   height: 23px;
   padding: 0 0 2px 0;
   border: none;
-  /* background: transparent; */
+  background: transparent;
   cursor: pointer;
 }
 

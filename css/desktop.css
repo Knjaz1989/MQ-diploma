@@ -166,12 +166,11 @@ a {
 }
 
 .trends-items {
-  flex-wrap: nowrap;
   gap: 4px;
 }
 
 .trend__item {
-  width: calc((100% - 12px) / 4)
+  width: calc((100% - 12px) / 4);
   padding: 16px 20px;
   height: 319px;
 }

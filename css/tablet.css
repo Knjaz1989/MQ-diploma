@@ -133,6 +133,21 @@
   padding: 29px;
 }
 
+@media (orientation: landscape) {
+  .trends-items {
+    gap: 4px;
+  }
+
+  .trend__item {
+    width: calc((100% - 12px) / 4);
+    height: auto;
+  }
+
+  .trend__item__link {
+    word-break: break-word;
+  }
+}
+
 .article-title {
   font-size: 17px;
   line-height: 22px;

@@ -37,6 +37,19 @@
 
 .trend__item__description {
   padding: 28px 20px;
+  width: 100%;
+}
+
+@media (orientation: landscape) {
+  .trends-items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3px;
+  }
+
+  .trend__item {
+    width: calc((100% - 3px) / 2);
+  }
 }
 
 .article-title {
