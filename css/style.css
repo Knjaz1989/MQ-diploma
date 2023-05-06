@@ -203,6 +203,44 @@ p {
   margin: 0;
 }
 
+/* --------- burger --------- */
+
+.header__button {
+  position: absolute;
+  top: -194px;
+  right: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 23px;
+  height: 23px;
+  padding: 0 0 2px 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.header__button__line {
+  height: 3px;
+  background-color: #fff;
+}
+
+.header__button__line::before {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: #fff;
+  margin-top: -8px;
+}
+
+.header__button__line::after {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: #fff;
+  margin-top: 13px;
+}
+
 /* ---------- main----------- */
 
 .article-title {

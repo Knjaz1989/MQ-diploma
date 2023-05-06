@@ -92,6 +92,12 @@ a {
 	text-decoration: underline;
 }
 
+/* --------- burger --------- */
+
+.header__button {
+  display: none;
+}
+
 /* ---------- main----------- */
 
 .main {
