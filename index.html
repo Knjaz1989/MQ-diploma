@@ -15,48 +15,48 @@
 <body>
   <div class="popup _hidden">
     <div class="popup__window">
-      <h3 class="section__name popup__title">
+      <h3 class="popup__window__title section__name">
         ваш фидбек
       </h3>
-      <form action="" method="post" class="popup__form">
-        <label class="form__label">
-          <span class="form__question">
+      <form class="popup__window__form" action="" method="post">
+        <label class="popup__window__form__label">
+          <span class="question">
             Как часто вы заходите на сайт?
           </span>
-          <select type="text" class="form__select">
-            <option value="" class="form__select__option">
+          <select class="popup__window__form__label__select" type="text">
+            <option class="popup__window__form__label__select__option" value="">
               Каждый день
             </option>
-            <option value="" class="form__select__option" selected>
+            <option class="popup__window__form__label__select__option" value="" selected>
               Почти каждый день
             </option>
-            <option value="" class="form__select__option">
+            <option class="popup__window__form__label__select__option" value="">
               Один раз в неделю
             </option>
-            <option value="" class="form__select__option">
+            <option class="popup__window__form__label__select__option" value="">
               Один раз в месяц
             </option>
           </select>
         </label>
-        <div class="form__radio__wrapper">
-          <span class="form__question">
+        <div class="popup__window__form__radio">
+          <span class="question">
             Вы подписаны на e-mail рассылку?
           </span>
-          <div class="form__radio">
-            <input class="radio__input" type="radio" name="radio" id="radioYes">
-            <label class="radio__button" for="radioYes">Дa</label>
-            <input class="radio__input" type="radio" name="radio" id="radioNo" checked>
-            <label class="radio__button" for="radioNo">Нет</label>
+          <div class="popup__window__form__radio__radios">
+            <input class="popup__window__form__radio__radios__button" type="radio" name="radio" id="radioYes">
+            <label class="popup__window__form__radio__radios__text" for="radioYes">Дa</label>
+            <input class="popup__window__form__radio__radios__button" type="radio" name="radio" id="radioNo" checked>
+            <label class="popup__window__form__radio__radios__text" for="radioNo">Нет</label>
           </div>
         </div>
-        <label class="form__label">
-          <span class="form__question">
+        <label class="popup__window__form__label">
+          <span class="question">
             Расскажите, какой контент вы хотели бы
             видеть на нашем сайте?
           </span>
-          <textarea type="text" class="form__input textarea" placeholder="Может, больше рецептов?"></textarea>
+          <textarea type="text" class="popup__window__form__label__textarea form__input" placeholder="Может, больше рецептов?"></textarea>
         </label>
-        <button type="submit" class="form__button">отправить</button>
+        <button type="submit" class="popup__window__form__button">отправить</button>
       </form>
     </div>
   </div>
