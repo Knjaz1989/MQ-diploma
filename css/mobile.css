@@ -92,25 +92,33 @@
   line-height: 20px;
 }
 
+/* ------ main sections ------- */
+
 .main__sections {
   padding-top: 34px;
 }
 
-.section__name {
+.section-name {
   font-size: 16px;
   line-height: 29px;
 }
 
-.section__name::after {
+/* .section-name::after {
   margin: 4px auto 24px;
-}
+} */
 
-.new__post__item {
+.new-posts__post-item {
   padding-top: 6px;
   padding-bottom: 16px;
   display: flex;
   align-items: flex-start;
   gap: 19px;
+}
+
+/* -------- mailing -------- */
+
+.mailing {
+  padding-top: 36px;
 }
 
 .search-form {
@@ -121,13 +129,13 @@
   flex-grow: 1;
 }
 
-.mailing {
-  padding-top: 36px;
-}
+/* -------- tags -------- */
 
 .tags-section {
   padding-top: 36px;
 }
+
+/* -------- themes -------- */
 
 .themes-section {
   padding-top: 35px;

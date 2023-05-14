@@ -19,32 +19,36 @@ a {
   padding-top: 243px;
 }
 
-.popup__window .section__name {
-  font-size: 19px;
-}
-
-.popup__window {
+.popup-window {
   padding: 46px 30px 53px;
 }
 
-.popup__window::after {
+.popup-window::after {
   top: -26px;
   right: -3px;
   width: 18px;
   height: 18px;
 }
 
-.popup__window .section__name::after {
+.popup-window__title {
+  font-size: 19px;
+}
+
+.popup-window__title::after {
   margin: 6px auto 26px;
 }
 
-.popup__window__form__radio__radios {
-  padding: 7px 0;
-  gap: 15px;
-  margin-bottom: 21px;
+.popup-window__select {
+  background-position: center right 13px;
 }
 
-.popup__window__form__radio__radios__text::before {
+.radio-items {
+  padding: 6px 0;
+  gap: 15px;
+  margin-bottom: 22px;
+}
+
+.radio-text::before {
   --image-size: 17px;
   margin-left: 1px;
 }
@@ -203,6 +207,8 @@ a {
 .main__sections {
   width: 272px;
 }
+
+/* -------- themes -------- */
 
 .themes-section {
   padding-top: 54px;

@@ -4,21 +4,21 @@
   padding-top: 236px;
 }
 
-.popup__window {
+.popup-window {
   width: 390px;
   padding: 47px 29px 53px;
 }
 
-.popup__window::after {
+.popup-window::after {
   top: -36px;
   right: 1px;
 }
 
-.popup__window .section__name {
+.popup-window__title {
   font-size: 18px;
 }
 
-.popup__window .section__name::after {
+.popup-window__title::after {
   margin: 6px auto 25px;
 }
 
@@ -165,17 +165,23 @@
   margin: 6px auto 19px;
 }
 
-.search-form {
-  margin-top: 45px;
-}
+/* -------- mailing -------- */
 
 .mailing {
   padding-top: 53px;
 }
 
+.search-form {
+  margin-top: 45px;
+}
+
+/* -------- tags -------- */
+
 .tags-section {
   padding-top: 50px;
 }
+
+/* -------- themes -------- */
 
 .themes-section {
   padding-top: 51px;
