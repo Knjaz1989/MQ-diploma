@@ -30,11 +30,11 @@
   background-image: url("../images/banner-bg-tablet.jpg");
 }
 
-.header__logo {
+.header-menu__logo {
   width: 158px;
 }
 
-.header__menu {
+.header-menu {
   box-sizing: border-box;
   margin: 0 35px;
 
@@ -43,7 +43,7 @@
   align-items: center;
 }
 
-.header__title {
+.header-data__title {
   margin: 85px 78px 0;
   font-size: 40px;
   line-height: 54.98px;
@@ -51,7 +51,7 @@
 
 /* --------- burger --------- */
 
-.header__button {
+.header-menu__button {
   position: static;
 }
 

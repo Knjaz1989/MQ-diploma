@@ -6,11 +6,11 @@
   background-image: url("../images/banner-mobile.jpg");
 }
 
-.header__logo {
+.header-menu__logo {
   width: 270px;
 }
 
-.header__title {
+.header-data__title {
   margin: 29px 40px 0;
   font-size: 26px;
   line-height: 36px;

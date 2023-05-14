@@ -61,44 +61,44 @@ a {
 	background-image: url("../images/banner-bg.jpg");
 } 
   
-.header__logo {
+.header-menu__logo {
 	margin-top: 0px;
 	width: 180px;
 }
   
-.header__title {
+.header-data__title {
 	margin: 98px auto 0;
 	font-size: 45px;
 	line-height: 75px;
 	width: 687px;
 }
 
-.header__menu__nav {
-	display: flex;
-}
-
-.header__menu {
+.header-menu {
 	box-sizing: border-box;
   width: 1168px;
 	margin: 0 auto;
 }
 
-.header__menu__nav__item:nth-child(n+2) {
+.menu-nav {
+	display: flex;
+}
+
+.menu-nav__item:nth-child(n+2) {
 	margin-left: 36px;
 }
 
-.menu-link-item {
+.menu-nav__link-item {
 	color: inherit;
 	font-size: 12px;
 }
 
-.menu-link-item:hover {
+.menu-nav__link-item:hover {
 	text-decoration: underline;
 }
 
 /* --------- burger --------- */
 
-.header__button {
+.header-menu__button {
   display: none;
 }
 

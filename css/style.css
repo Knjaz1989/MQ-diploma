@@ -86,7 +86,7 @@ a {
   z-index: 3;
 }
 
-.header__menu__nav {
+.menu-nav {
   display: none;
 }
 
@@ -96,7 +96,7 @@ p {
 
 /* --------- burger --------- */
 
-.header__button {
+.header-menu__button {
   position: absolute;
   top: -194px;
   right: 16px;
@@ -111,12 +111,12 @@ p {
   cursor: pointer;
 }
 
-.header__button__line {
+.button-lines {
   height: 3px;
   background-color: #fff;
 }
 
-.header__button__line::before {
+.button-lines::before {
   content: '';
   display: block;
   height: 3px;
@@ -124,7 +124,7 @@ p {
   margin-top: -8px;
 }
 
-.header__button__line::after {
+.button-lines::after {
   content: '';
   display: block;
   height: 3px;
@@ -523,7 +523,6 @@ p {
   /* line-height: 16px; */
 }
 
-.form__input,
 .popup-window__select {
   width: 100%;
   height: 46px;
