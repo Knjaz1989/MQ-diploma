@@ -246,7 +246,7 @@ p {
 
 /* ---------------- new-posts ---------------- */
 
-.post-item__description__date {
+.post-item-info__date {
   display: block;
   font-size: 12px;
   line-height: 10px;
@@ -254,7 +254,7 @@ p {
   color: #888888;
 }
 
-.post-item__description__title {
+.post-item-info__title {
   font-size: 14px;
   line-height: 18px;
   margin: 6px 0 0;
@@ -304,7 +304,7 @@ p {
   margin-bottom: 22px;
 }
 
-.mail__input {
+.mailing-form__input {
   box-sizing: border-box;
   height: 48px;
   width: 100%;
@@ -314,11 +314,11 @@ p {
   background: #f4f7f6;
 }
 
-.mail__input:focus {
+.mailing-form__input:focus {
   outline: 1px solid #b59f5b;
 }
 
-.mail__button {
+.mailing-form__button {
   border: 0;
   padding: 0;
   cursor: pointer;
@@ -331,7 +331,7 @@ p {
   background-color: #b59f5b;
 }
 
-.mail__button:hover {
+.mailing-form__button:hover {
   background-color: #323232;
 }
 
@@ -346,13 +346,13 @@ p {
   margin-bottom: 22px;
 }
 
-.tag__item {
+.tags__item {
   border: 3px solid #eeeeee;
   /* margin-top: 6px; */
   padding: 1px 13px;
 }
 
-.tag__link {
+.tags__item-link {
   font-size: 12px;
 }
 
