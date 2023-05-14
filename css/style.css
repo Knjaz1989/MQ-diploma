@@ -199,7 +199,7 @@ p {
   flex-wrap: wrap;
 }
 
-.post__item__tags {
+.post-tags {
   font-size: 14px;
 }
 
@@ -211,22 +211,18 @@ p {
   text-decoration: underline;
 }
 
-.main__posts {
+.main-posts {
   display: flex;
   flex-direction: column;
 }
 
-.main__post__title {
+.post-description__title {
   font-weight: bold;
 }
 
-.main__post__info {
+.post-info {
   display: flex;
   font-size: 12px;
-}
-
-.main__post__text {
-  text-transform: none;
 }
 
 .date {
@@ -240,7 +236,7 @@ p {
   text-transform: none;
 }
 
-.main__post__text {
+.post-text {
   text-transform: none;
   padding-top: 14px;
   display: flex;

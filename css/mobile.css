@@ -56,7 +56,7 @@
   line-height: 20px;
 }
 
-.post__item__description {
+.post-description {
   margin-top: 5px;
 }
 
@@ -64,30 +64,30 @@
   padding: 43px 15px 0;
 }
 
-.main__posts {
+.main-posts {
   gap: 35px;
 }
 
-.main__post__image {
+.post-image {
   width: 100%;
 }
 
-.main__post {
+.main-post {
   border-bottom: 3px solid #ededed;
   padding-bottom: 20px;
 }
 
-.main__post__title {
+.post-description__title {
   font-size: 16px;
   line-height: 20px;
   margin: 6px 0 0;
 }
 
-.main__post__info {
+.post-info {
   margin-top: 18px;
 }
 
-.main__post__text {
+.post-text {
   font-size: 14px;
   line-height: 20px;
 }

@@ -108,7 +108,7 @@ a {
   padding: 58px 245px 0;
 }
 
-.main__inner {
+.main-inner {
   gap: 0;
   justify-content: space-between;
 }
@@ -123,12 +123,12 @@ a {
   justify-content: space-between;
 }
 
-.main__posts {
+.main-posts {
   width: 778px;
   gap: 60px;
 }
 
-.main__post {
+.main-post {
   width: auto;
   display: flex;
   justify-content: space-between;
@@ -137,31 +137,31 @@ a {
   padding-bottom: 0;
 }
 
-.main__post__image {
+.post-image {
   width: 381px;
   margin-right: 29px;
 }
 
-.post__item__description {
+.post-description {
   margin-top: 0px;
 }
 
-.post__item__tags {
+.post-tags {
   margin-top: 0;
   line-height: 14px;
 }
 
-.main__post__title {
+.post-description__title {
   font-size: 20px;
   line-height: 22px;
   margin: 10px 0 0;
 }
 
-.main__post__info {
+.post-info {
   margin-top: 31px;
 }
 
-.main__post__text {
+.post-text {
   margin-top: 31px;
 }
 

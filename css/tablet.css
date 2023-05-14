@@ -68,35 +68,35 @@
   padding: 43px 35px 0;
 }
 
-.main__inner {
+.main-inner {
   display: flex;
 }
 
-.main__posts {
+.main-posts {
   padding-top: 7px;
   gap: 42px;
 }
 
-.main__post {
+.main-post {
   padding-bottom: 19px;
 }
 
-.post__item__tags {
+.post-tags {
   margin-top: 7px;
 }
 
-.main__post__title {
+.post-description__title {
   font-size: 17px;
   line-height: 22px;
   margin: 7px 0 0;
 }
 
-.main__post__info {
+.post-info {
   margin-top: 29px;
   margin-left: -3px;
 }
 
-.main__post__text {
+.post-text {
   font-size: 15px;
   line-height: 22px;
   margin-top: 13px;
