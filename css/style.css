@@ -421,17 +421,17 @@ p {
   background-color: #f4f7f6;
 }
 
-.social__items {
+.socials__items {
   margin: 0 auto;
   justify-content: center;
   gap: 27px;
 }
 
-.social__item {
+.socials__item {
   height: 20px;
 }
 
-.social__icon {
+.socials__icon {
   display: block;
   height: 20px;
   width: 20px;
@@ -439,26 +439,26 @@ p {
   background-size: 20px;
 }
 
-.dribbble__icon{
+.dribbble{
   background-image: url("../svg/001-dribbble.svg");
 }
          
-.pinterest__icon {
+.pinterest {
   background-image: url("../svg/002-pinterest.svg");
 }
 
-.tumblr__icon {
+.tumblr {
   background-image: url("../svg/003-tumblr.svg");
 }
 
-.copyright__link {
+.footer__copyright-link {
   font-weight: bold;
   font-size: 12px;
   text-transform: none;
   color: #999999;
 }
 
-.copyright__link:hover {
+.footer__copyright-link:hover {
   text-decoration: underline;
   color: #999999b9;
 }
