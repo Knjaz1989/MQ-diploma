@@ -60,6 +60,10 @@ a {
 	padding-bottom: 127px;
 	background-image: url("../images/banner-bg.jpg");
 } 
+
+.header-menu {
+  align-items: normal;
+}
   
 .header-menu__logo {
 	margin-top: 0px;
@@ -81,15 +85,16 @@ a {
 
 .menu-nav {
 	display: flex;
+  padding-top: 8px;
 }
 
 .item-modifier {
-  margin-left: 36px;
+  margin-left: 32px;
 }
 
 .menu-nav__link-item {
 	color: inherit;
-	font-size: 12px;
+	font-size: 13px;
 }
 
 .menu-nav__link-item:hover {
@@ -199,14 +204,6 @@ a {
   line-height: 24px;
 }
 
-.trends .section__name {
-  font-size: 20px;
-}
-
-.trends .section__name::after {
-  margin: 8px auto 28px;
-}
-
 /* ------- new-posts -------- */
 
 .main__sections {
@@ -257,11 +254,14 @@ a {
   padding-bottom: 26px;
 }
 
+/* ----- footer ----- */
+
 .footer {
-  padding-top: 10px;
+  padding: 29px 245px 0;
 }
 
 .socials {
-  padding: 31px 0 54px;
+  padding: 31px 0;
+  margin: 0 0 64px;
 }
 

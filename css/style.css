@@ -15,7 +15,7 @@
 body {
   margin: 0;
   text-transform: uppercase;
-  font-family: "OpenSans";
+  font-family: "OpenSans", Arial, sans-serif;
   min-width: 360px;
 }
 
@@ -30,6 +30,10 @@ a {
   text-decoration: none;
   font-weight: bold;
   color: #000000;
+}
+
+p {
+  margin: 0;
 }
 
 .hidden-text {
@@ -88,10 +92,6 @@ a {
 
 .menu-nav {
   display: none;
-}
-
-p {
-  margin: 0;
 }
 
 /* --------- burger --------- */
