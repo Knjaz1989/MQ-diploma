@@ -165,8 +165,19 @@ a {
   margin-top: 31px;
 }
 
+/* -------------  trends ------------ */
+
 .trends {
-  padding-top: 54px;
+  padding-top: 55px;
+}
+
+.trends__title {
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.trends__title::after {
+  margin: 8px auto 29px;
 }
 
 .trend-items {
@@ -196,16 +207,11 @@ a {
   margin: 8px auto 28px;
 }
 
-.section__name {
-  font-size: 14px;
-}
-
-.section__name::after {
-  margin: 3px auto 23px;
-}
+/* ------- new-posts -------- */
 
 .main__sections {
   width: 272px;
+  padding-top: 1px;
 }
 
 /* -------- themes -------- */
@@ -220,12 +226,8 @@ a {
   padding-top: 58px;
 }
 
-.products .section__name {
+.products__title {
   font-size: 20px;
-}
-
-.products .section__name::after {
-  margin: 7px auto 29px;
 }
 
 .products__inner {
@@ -255,23 +257,11 @@ a {
   padding-bottom: 26px;
 }
 
-.product-image-first {
-  background-image: url("../images/shop-item-desk1.jpg");
-}
-
-.product-image-second {
-  background-image: url("../images/shop-item-desk2.jpg");
-}
-
-.product-image-third {
-  background-image: url("../images/shop-item-desk3.jpg");
-}
-
 .footer {
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .socials {
-  padding: 31px 0 31px;
+  padding: 31px 0 54px;
 }
 
