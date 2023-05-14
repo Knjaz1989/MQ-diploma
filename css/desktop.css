@@ -242,28 +242,28 @@ a {
   width: 347px;
 }
 
-.product__image {
+.product-image {
   height: 204px;
 }
 
-.product__title {
+.product-info__title {
   font-size: 20px;
   line-height: 24px;
 }
 
-.product__info {
+.product-info {
   padding-bottom: 26px;
 }
 
-.pr__image1 {
+.product-image-first {
   background-image: url("../images/shop-item-desk1.jpg");
 }
 
-.pr__image2 {
+.product-image-second {
   background-image: url("../images/shop-item-desk2.jpg");
 }
 
-.pr__image3 {
+.product-image-third {
   background-image: url("../images/shop-item-desk3.jpg");
 }
 

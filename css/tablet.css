@@ -211,60 +211,56 @@
   margin: 7px auto 29px;
 }
 
-.product__image {
+.product-image {
   height: 225px;
   margin: 0 22px;
 }
 
-.product__info {
+.product-info {
   flex-grow: 1;
   top: -33px;
   padding: 49px 17px 25px;
 }
 
-.product__title {
+.product-info__title {
   font-size: 17px;
   line-height: 22px;
 }
 
-.product__text {
+.product-info__text {
   font-size: 15px;
   line-height: 22px;
   text-transform: none;
   margin-top: 3px;
 }
 
-.product__text__link {
-  font-weight: normal;
-}
-
-.product__buy {
+.product-buy {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin-top: 22px;
 }
 
-.product__buy__prices {
+.prices {
   font-weight: bold;
 }
 
-.product__buy__price__item:after {
+.price-item:after {
 	content: ' \20BD';
 }
 
-.product__buy__old__price {
+.old-price {
   text-decoration: line-through;
   font-size: 14px;
 }
 
-.product__buy__current__price {
+.current-price {
   font-size: 20px;
   line-height: 14px;
   padding-bottom: 10px;
 }
 
-.product__buy__shop {
+.product-buy__shop {
   font-size: 14px;
   line-height: 40px;
   padding: 4px;
@@ -276,23 +272,24 @@
   margin-right: 4px;
 }
 
-.product__text__link {
+.product-info__text-link {
   color: #b59f5b;
+  font-weight: normal;
 }
 
-.product__text__link:hover {
+.product-info__text-link:hover {
   text-decoration: underline;
 }
 
-.pr__image1 {
+.product-image-first {
   background-image: url("../images/shop-item-tablet1.jpg");
 }
 
-.pr__image2 {
+.product-image-second {
   background-image: url("../images/shop-item-tablet2.jpg");
 }
 
-.pr__image3 {
+.product-image-third {
   background-image: url("../images/shop-item-tablet3.jpg");
 }
 

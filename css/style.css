@@ -367,17 +367,17 @@ p {
   flex-direction: column;
 }
 
-.theme__item {
+.themes__item {
   padding: 12px 0;
   border-bottom: 1px solid #ededed;
 }
 
-.theme-link {
+.themes__item-link {
   font-size: 14px;
   text-transform: none;
 }
 
-.theme-link:hover {
+.themes__item-link:hover {
   color: #b59f5b;
 }
 
@@ -390,20 +390,20 @@ p {
 
 /* -------- products -------- */
 
-.product__image {
+.product-image {
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.product__info {
+.product-info {
   position: relative;
   top: -30px;
   padding: 47px 17px 20px;
   border: 3px solid #b59f5b;
 }
 
-.product__title {
+.product-info__title {
   margin: 0;
   text-transform: uppercase;
 }
