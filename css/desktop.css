@@ -83,8 +83,8 @@ a {
 	display: flex;
 }
 
-.menu-nav__item:nth-child(n+2) {
-	margin-left: 36px;
+.item-modifier {
+  margin-left: 36px;
 }
 
 .menu-nav__link-item {

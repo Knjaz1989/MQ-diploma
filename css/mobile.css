@@ -2,7 +2,7 @@
 
 .header {
   padding-top: 225px;
-  padding-bottom: 213px;
+  padding-bottom: 211px;
   background-image: url("../images/banner-mobile.jpg");
 }
 
@@ -19,8 +19,17 @@
 /* ---------- main----------- */
 
 .trends {
-  padding-top: 33px;
+  padding-top: 34px;
   font-size: 16px;
+}
+
+.trends__title {
+  font-size: 16px;
+  line-height: 29px;
+}
+
+.trends__title::after {
+  margin: 5px auto 24px;
 }
 
 .trend-items {
@@ -95,12 +104,16 @@
 /* ------ main sections ------- */
 
 .main__sections {
-  padding-top: 34px;
+  padding-top: 37px;
 }
 
-.trends__title {
+.new-posts__title {
   font-size: 16px;
-  line-height: 29px;
+}
+
+.new-posts__title::after {
+  margin: 9px auto 22px;
+  
 }
 
 .new-posts__post-item {
@@ -114,7 +127,15 @@
 /* -------- mailing -------- */
 
 .mailing {
-  padding-top: 36px;
+  padding-top: 37px;
+}
+
+.mailing__title {
+  font-size: 16px;
+}
+
+.mailing__title::after {
+  margin: 9px auto 23px;
 }
 
 .search-form {
@@ -128,27 +149,43 @@
 /* -------- tags -------- */
 
 .tags-section {
-  padding-top: 36px;
+  padding-top: 38px;
+}
+
+.tags-section__title {
+  font-size: 16px
+}
+
+.tags-section__title::after {
+  margin: 9px auto 23px;
 }
 
 /* -------- themes -------- */
 
 .themes-section {
-  padding-top: 35px;
+  padding-top: 37px;
 }
 
-.themes-section .section__name::after {
-  margin-bottom: 10px;
+.themes-section__title {
+  font-size: 16px
+}
+
+.themes-section__title::after {
+  margin: 9px auto 8px;
 }
 
 /* -------- products -------- */
 
 .products {
-  padding-top: 29px;
+  padding-top: 33px;
 }
 
-.products .section__name::after {
-  margin: 7px auto 29px;
+.products__title {
+  font-size: 16px;
+}
+
+.products__title::after {
+  margin: 11px auto 28px;
 }
 
 .products__inner {
@@ -156,9 +193,17 @@
   grid-template-columns: repeat(1, 1fr);
 }
 
+.product__picture {
+  padding: 0 20px;
+}
+
 .product-image {
   height: 284px;
-  margin: 0 20px;
+}
+
+.product-info {
+  top: -36px;
+  padding: 48px 22px 18px 17px;
 }
 
 .product-info__title {
@@ -177,7 +222,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-top: 22px;
+  margin-top: 23px;
 }
 
 .prices {

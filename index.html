@@ -72,11 +72,11 @@
         <nav class="menu-nav">
           <ul>
             <li class="menu-nav__item"><a href="#0" class="menu-nav__link-item">главная</a></li>
-            <li class="menu-nav__item"><a href="#0" class="menu-nav__link-item">посты</a></li>
-            <li class="menu-nav__item"><a href="#0" class="menu-nav__link-item">статьи</a></li>
-            <li class="menu-nav__item"><a href="#0" class="menu-nav__link-item">теги</a></li>
-            <li class="menu-nav__item"><a href="#0" class="menu-nav__link-item">темы</a></li>
-            <li class="menu-nav__item"><a href="#0" class="menu-nav__link-item">контакты</a></li>
+            <li class="menu-nav__item item-modifier"><a href="#0" class="menu-nav__link-item">посты</a></li>
+            <li class="menu-nav__item item-modifier"><a href="#0" class="menu-nav__link-item">статьи</a></li>
+            <li class="menu-nav__item item-modifier"><a href="#0" class="menu-nav__link-item">теги</a></li>
+            <li class="menu-nav__item item-modifier"><a href="#0" class="menu-nav__link-item">темы</a></li>
+            <li class="menu-nav__item item-modifier"><a href="#0" class="menu-nav__link-item">контакты</a></li>
           </ul>
         </nav>
       </div>
@@ -87,7 +87,8 @@
     <section class="trends">
       <h3 class="trends__title section-name">сейчас в тренде</h6>
       <div class="trend-items">
-        <article class="trend-item image-first">  
+        <article class="trend-item">
+          <img class="trend-image" src="../images/trend1.jpg" alt="garden on a windowsill">
           <div class="trend-info">
             <ul class="tags-list">
               <li class="post-tag">
@@ -104,7 +105,8 @@
             </h4> 
           </div>       
         </article>
-        <article class="trend-item image-second">
+        <article class="trend-item">
+          <img class="trend-image" src="../images/trend2.jpg" alt="cheeses">
           <div class="trend-info">
             <ul class="tags-list">
               <li class="post-tag">
@@ -120,7 +122,8 @@
             </h4> 
           </div> 
         </article>
-        <article class="trend-item image-third">
+        <article class="trend-item">
+          <img class="trend-image" src="../images/trend3.jpg" alt="going to mountains">
           <div class="trend-info">
             <ul class="tags-list">
               <li class="post-tag">
@@ -137,7 +140,8 @@
             </h4> 
           </div> 
         </article>
-        <article class="trend-item image-fourth">
+        <article class="trend-item">
+          <img class="trend-image" src="../images/trend4.jpg" alt="vitamins in lemons">
           <div class="trend-info">
             <ul class="tags-list">
               <li class="post-tag">
@@ -191,7 +195,7 @@
             </div>
           </div>       
         </article>
-        <article class="main__post">
+        <article class="main-post">
           <img class="post-image" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg" alt="Women on a cover">
           <div class="post-description">
             <div class="post-tags">
@@ -221,7 +225,7 @@
             </div>
           </div>       
         </article>
-        <article class="main__post">
+        <article class="main-post">
           <img class="post-image" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg" alt="Person on a festival">
           <div class="post-description">
             <div class="post-tags">
@@ -250,7 +254,7 @@
             </div>
           </div>       
         </article>
-        <article class="main__post">
+        <article class="main-post">
           <img class="post-image" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" alt="Food on a table">
           <div class="post-description">
             <div class="post-tags">
@@ -280,7 +284,7 @@
             </div>
           </div>       
         </article>
-        <article class="main__post">
+        <article class="main-post">
           <img class="post-image" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg" alt="Pillow on a chair">
           <div class="post-description">
             <div class="post-tags">
@@ -458,9 +462,14 @@
       <h3 class="products__title section-name">наши изделия</h6>
       <div class="products__inner">
         <div class="product">
-          <div class="product-image product-image-first"></div>
+          <!-- <div class="product-image product-image-first"></div> -->
+          <picture class="product__picture">
+            <source media="(min-width: 1200px)" srcset="images/shop-item-desk1.jpg">
+            <source media="(min-width: 641px)" srcset="images/shop-item-tablet1.jpg">
+            <img class="product-image" src="images/shop-item-mobile1.jpg" alt="pillow">
+          </picture>
           <div class="product-info">
-            <h4 class="product__title">подушки на диван</h4>
+            <h4 class="product-info__title">подушки на диван</h4>
             <p class="product-info__text">
               Набор из двух подушек с модными принтами.
               Видео о создании
@@ -483,9 +492,14 @@
           </div>
         </div>
         <div class="product">
-          <div class="product-image product-image-second"></div>
+          <!-- <div class="product-image product-image-second"></div> -->
+          <picture class="product__picture">
+            <source media="(min-width: 1200px)" srcset="images/shop-item-desk2.jpg">
+            <source media="(min-width: 641px)" srcset="images/shop-item-tablet2.jpg">
+            <img class="product-image" src="images/shop-item-mobile2.jpg" alt="pillow">
+          </picture>
           <div class="product-info">
-            <h4 class="product__title">кукла «зайчик»</h4>
+            <h4 class="product-info__title">кукла «зайчик»</h4>
             <p class="product-info__text">
               Интерьерная рукодельная кукла «Зайчик»,
               созданию которой посвящена
@@ -507,9 +521,14 @@
           </div>
         </div>
         <div class="product">
-          <div class="product-image product-image-third"></div>
+          <!-- <div class="product-image product-image-third"></div> -->
+          <picture class="product__picture">
+            <source media="(min-width: 1200px)" srcset="images/shop-item-desk3.jpg">
+            <source media="(min-width: 641px)" srcset="images/shop-item-tablet3.jpg">
+            <img  class="product-image" src="images/shop-item-mobile3.jpg" alt="pillow">
+          </picture>
           <div class="product-info">
-            <h4 class="product__title">шестиугольная рамка</h4>
+            <h4 class="product-info__title">шестиугольная рамка</h4>
             <p class="product-info__text">
               Необычная рамка для украшения дома из видео
               <a href="#0" class="product-info__text-link">

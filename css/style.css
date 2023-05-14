@@ -114,6 +114,7 @@ p {
 .button-lines {
   height: 3px;
   background-color: #fff;
+  width: 100%;
 }
 
 .button-lines::before {
@@ -169,28 +170,20 @@ p {
   height: 100%;
 }
 
+.trend-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .trend-info {
   z-index: 3;
   border: 3px solid #b59f5b;
   display: flex;
   flex-direction: column;
   gap: 6px;
-}
-
-.image-first {
-  background-image: url("../images/trend1.jpg");
-}
-
-.image-second {
-  background-image: url("../images/trend2.jpg");
-}
-
-.image-third {
-  background-image: url("../images/trend3.jpg");
-}
-
-.image-fourth {
-  background-image: url("../images/trend4.jpg");
 }
 
 .tags-list {
@@ -310,7 +303,7 @@ p {
   width: 100%;
   border: 0;
   padding: 0 18px;
-  margin-bottom: 17px;
+  margin-bottom: 18px;
   background: #f4f7f6;
 }
 
@@ -348,7 +341,6 @@ p {
 
 .tags__item {
   border: 3px solid #eeeeee;
-  /* margin-top: 6px; */
   padding: 1px 13px;
 }
 
@@ -390,16 +382,18 @@ p {
 
 /* -------- products -------- */
 
-.product-image {
+.product__picture{
   margin: 0 auto;
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: block;
+  box-sizing: border-box;
+}
+
+.product-image {
+  width: 100%;
 }
 
 .product-info {
   position: relative;
-  top: -30px;
-  padding: 47px 17px 20px;
   border: 3px solid #b59f5b;
 }
 
