@@ -193,10 +193,6 @@
   grid-template-columns: repeat(1, 1fr);
 }
 
-.product__picture {
-  padding: 0 20px;
-}
-
 .product-image {
   height: 284px;
 }

@@ -382,8 +382,9 @@ p {
 
 /* -------- products -------- */
 
-.product__picture{
+.product__picture {
   margin: 0 auto;
+  padding: 0 20px;
   display: block;
   box-sizing: border-box;
 }

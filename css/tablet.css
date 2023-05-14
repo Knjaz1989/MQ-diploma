@@ -102,18 +102,19 @@
   margin-top: 13px;
 }
 
-.main__sections {
-  width: 270px;
-  flex-shrink: 0;
-  margin-left: 35px;
-}
-
-.main__sections .section__name {
-  font-size: 14px;
-}
+/* --------- trends ---------- */
 
 .trends {
   padding-top: 42px;
+}
+
+.trends__title {
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.trends__title::after {
+  margin: 6px auto 19px;
 }
 
 .trend-items {
@@ -153,22 +154,31 @@
   line-height: 22px;
 }
 
+/* -------- new-posts --------- */
+
 .main__sections {
-  padding-top: 0;
+  width: 270px;
+  flex-shrink: 0;
+  margin-left: 35px;
+  padding-top: 3px;
 }
 
-.section__name {
-  font-size: 18px;
+.new-posts__title {
+  font-size: 14px;
 }
 
-.section__name::after {
-  margin: 6px auto 19px;
+.new-posts__title::after {
+  margin: 9px auto 23px;
 }
 
 /* -------- mailing -------- */
 
 .mailing {
-  padding-top: 53px;
+  padding-top: 56px;
+}
+
+.mailing__title {
+  font-size: 14px;
 }
 
 .search-form {
@@ -178,23 +188,35 @@
 /* -------- tags -------- */
 
 .tags-section {
-  padding-top: 50px;
+  padding-top: 55px;
+}
+
+.tags-section__title {
+  font-size: 14px;
 }
 
 /* -------- themes -------- */
 
 .themes-section {
-  padding-top: 51px;
+  padding-top: 55px;
 }
 
-.themes-section .section__name::after {
-  margin-bottom: 6px;
+.themes-section__title {
+  font-size: 14px;
 }
 
 /* -------- products -------- */
 
 .products {
-  padding-top: 40px;
+  padding-top: 43px;
+}
+
+.products__title {
+  font-size: 18px;
+}
+
+.products__title::after {
+  margin: 8px auto 28px;
 }
 
 .products__inner {
@@ -207,19 +229,14 @@
   flex-direction: column;
 }
 
-.products .section__name::after {
-  margin: 7px auto 29px;
-}
-
 .product-image {
-  height: 225px;
-  margin: 0 22px;
+  height: 226px;
 }
 
 .product-info {
   flex-grow: 1;
-  top: -33px;
-  padding: 49px 17px 25px;
+  top: -37px;
+  padding: 49px 17px 25px 19px;
 }
 
 .product-info__title {
