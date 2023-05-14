@@ -134,20 +134,20 @@ p {
 
 /* ---------- main----------- */
 
-.article-title {
+.trend-info__title {
   margin: 0;
 }
 
-.trends-items {
+.trend-items {
   display: flex;
   gap: 1px;
 }
 
-.trend__item__link {
+.trend-info__title-link {
   color: #ffffff;
 }
 
-.trend__item {
+.trend-item {
   position: relative;
   z-index: 1;
   box-sizing: border-box;
@@ -158,7 +158,7 @@ p {
   align-items: flex-end;
 }
 
-.trend__item::after {
+.trend-item::after {
   content: '';
   position: absolute;
   z-index: 2;
@@ -169,7 +169,7 @@ p {
   height: 100%;
 }
 
-.trend__item__description {
+.trend-info {
   z-index: 3;
   border: 3px solid #b59f5b;
   display: flex;
@@ -177,23 +177,23 @@ p {
   gap: 6px;
 }
 
-.tr_image_1 {
+.image-first {
   background-image: url("../images/trend1.jpg");
 }
 
-.tr_image_2 {
+.image-second {
   background-image: url("../images/trend2.jpg");
 }
 
-.tr_image_3 {
+.image-third {
   background-image: url("../images/trend3.jpg");
 }
 
-.tr_image_4 {
+.image-fourth {
   background-image: url("../images/trend4.jpg");
 }
 
-.tags_list {
+.tags-list {
   font-size: 14px;
   gap: 18px;
   flex-wrap: wrap;
@@ -203,11 +203,11 @@ p {
   font-size: 14px;
 }
 
-.post__tag__link {
+.tag-link {
   color: #b59f5b;
 }
 
-.post__tag__link:hover {
+.tag-link:hover {
   text-decoration: underline;
 }
 

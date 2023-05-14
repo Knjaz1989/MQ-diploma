@@ -169,21 +169,21 @@ a {
   padding-top: 54px;
 }
 
-.trends-items {
+.trend-items {
   gap: 4px;
 }
 
-.trend__item {
+.trend-item {
   width: calc((100% - 12px) / 4);
   padding: 16px 20px;
   height: 319px;
 }
 
-.trend__item__description {
+.trend-info {
   padding: 32px;
 }
 
-.article-title {
+.trend-info__title {
   font-size: 20px;
   line-height: 24px;
 }

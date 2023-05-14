@@ -23,11 +23,11 @@
   font-size: 16px;
 }
 
-.trends-items {
+.trend-items {
   flex-direction: column;
 }
 
-.trend__item {
+.trend-item {
   height: 233px;
   padding: 15px;
   border-width: 1px 0;
@@ -35,24 +35,24 @@
   border-color: #c6c5c2;
 }
 
-.trend__item__description {
+.trend-info {
   padding: 28px 20px;
   width: 100%;
 }
 
 @media (orientation: landscape) {
-  .trends-items {
+  .trend-items {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 3px;
   }
 
-  .trend__item {
+  .trend-item {
     width: calc((100% - 3px) / 2);
   }
 }
 
-.article-title {
+.trend-info__title {
   line-height: 20px;
 }
 
@@ -98,14 +98,10 @@
   padding-top: 34px;
 }
 
-.section-name {
+.trends__title {
   font-size: 16px;
   line-height: 29px;
 }
-
-/* .section-name::after {
-  margin: 4px auto 24px;
-} */
 
 .new-posts__post-item {
   padding-top: 6px;

@@ -116,39 +116,39 @@
   padding-top: 42px;
 }
 
-.trends-items {
+.trend-items {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 3px;
 }
 
-.trend__item {
+.trend-item {
   width: calc((100% - 3px) / 2);
   padding: 16px 20px;
   border: none;
   height: 247px;
 }
 
-.trend__item__description {
+.trend-info {
   padding: 29px;
 }
 
 @media (orientation: landscape) {
-  .trends-items {
+  .trend-items {
     gap: 4px;
   }
 
-  .trend__item {
+  .trend-item {
     width: calc((100% - 12px) / 4);
     height: auto;
   }
 
-  .trend__item__link {
+  .trend-info__title-link {
     word-break: break-word;
   }
 }
 
-.article-title {
+.trend-info__title {
   font-size: 17px;
   line-height: 22px;
 }
